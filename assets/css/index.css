@@ -2,30 +2,39 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
+    display: inline-flex;
 }
 .logo{
+    display: flex;
     position: absolute;
+    align-self: center;
+    margin: 1%;
+    z-index: 1;
 }
 .logo img{
     height: 20vh;
     width: 10vw;
-    margin: 15%;
+    /* margin: 15%; */
 }
 
 .banner{
     display: flex;
+    align-self: flex-start;
     height: 25vh;
     width: 100vw;
     background-image: url(../img/banner_supermario.jpg);
     background-position: 38% 56%;
     justify-content: center;
+    z-index: 0;
 }
 .banner h2{
     align-self: center;
-    color: black;
+    color: white;
+    font-size: 3em;
 }
 
 nav{
@@ -48,34 +57,41 @@ nav a{
     display: flex;
     align-self: center;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 
 body article{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 body article h2{
     min-width: max-content;
     text-align: center;
     margin-bottom: 2vh;
+    font-size: 2em;
 }
 
 .galeria{
     display: flex;
+    justify-content: center;
     width: 90vw;
     height: 600px;
-    justify-content: center;
 }
 
 .galeria img{
     width: 15%;
     object-fit: cover;
+    transition: all 0.7s ease-in-out;
+}
+.galeria img:hover{
+    width: 50%;;
 }
 
 footer{
     text-align: center;
     background-color: purple;
     margin-top: 2vh;
+    font-size: 1.5em;
 }
