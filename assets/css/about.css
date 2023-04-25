@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-header{
-}
 .logo{
     position: absolute;
 }
@@ -50,4 +47,27 @@ nav a{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+}
+dd{
+    margin: 10px;
+}
+dt{
+    font-weight: 600;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+table caption {
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+    background-color:lawngreen;
+}
+.centered {
+    text-align: center;
 }
