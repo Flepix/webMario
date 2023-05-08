@@ -76,3 +76,13 @@ td, th {
 .centered {
     text-align: center;
 }
+.Instagram img{
+    height: 20px;
+    width: 20px;
+    display: inline-block;      
+}
+.Twitter img{
+    height: 20px;
+    width: 20px;
+    display: inline-block;   
+}
