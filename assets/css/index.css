@@ -111,3 +111,7 @@ footer div.copy-logos img{
     height: 20px;
     width: 20px;
 }
+#carouselExample{
+    width: 400px;
+    height: auto;
+}
