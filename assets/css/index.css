@@ -40,7 +40,6 @@ header{
 nav{
     display: flex;
     justify-content: center;
-    margin-bottom: 1vh;
     background-color:yellow;
 }
 nav div{
@@ -56,20 +55,19 @@ nav div{
 nav a{
     display: flex;
     align-self: center;
-
     font-weight: bold;
 }
 
-body article{
+body main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-body article h2{
+body main h2{
     min-width: max-content;
     text-align: center;
-    margin-bottom: 2vh;
+    margin-top: 2%;
     font-size: 2em;
 }
 
@@ -78,6 +76,7 @@ body article h2{
     justify-content: center;
     width: 90vw;
     height: 600px;
+    margin: 2%;
 }
 
 .galeria img{
@@ -90,18 +89,25 @@ body article h2{
 }
 
 footer{
-    text-align: center;
+    display: flex;
+    justify-content: flex-end;
     background-color: purple;
-    margin-top: 2vh;
-    font-size: 1.5em;
 }
-.Instagram img{
+footer div.copy-logos{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-right: 1%;
+}
+footer div.copy-logos p{
+    display: flex;
+    justify-content: center;
+    width: 92%;
+    font-size: 1.2em;
+}
+footer div.copy-logos img{
+    display: flex;
+    align-self: center;
     height: 20px;
     width: 20px;
-    display: inline-block;      
-}
-.Twitter img{
-    height: 20px;
-    width: 20px;
-    display: inline-block;   
 }

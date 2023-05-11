@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Mario Bros The Movie</title>
 
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 
 <header>
@@ -36,33 +36,35 @@
 </nav>
 
 <body>
-    <div class="container"> 
-        <h1>Formulario</h1>
-
-        <form action="./show_data.html" method="get">
-            <fieldset>
-                <legend>Name</legend>
-                <input type="text" name="nombre" id="nombre" placeholder="Jhon Doe">
-            </fieldset>
-            <fieldset>
-                <legend>Email:</legend>
-                <input type="text" name="apellido" id="apellido" placeholder="myemail@email.com">
-            </fieldset>
-            <fieldset>
-                <legend>Message:</legend>
-                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Hello from Argentina champion"></textarea>
-            </fieldset>
-            <input type="submit" value="Enviar">
-        </form>
-    </div>
+    <main>
+        <div class="container"> 
+            <h1>Formulario</h1>
+    
+            <form action="show_data.html" method="get">
+                <fieldset>
+                    <legend>Name</legend>
+                    <input type="text" name="nombre" id="nombre" placeholder="Jhon Doe">
+                </fieldset>
+                <fieldset>
+                    <legend>Email:</legend>
+                    <input type="text" name="apellido" id="apellido" placeholder="myemail@email.com">
+                </fieldset>
+                <fieldset>
+                    <legend>Message:</legend>
+                    <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Hello from Argentina champion"></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
 </body>
 <footer>
-    Super Mario The Movie 2023 ®
-    <div class="Instagram"> 
-        <img src="assets/img/instagram.svg" alt="">
-    </div>
-    <div class="Twitter"> 
-        <img src="assets/img/twitter.svg" alt="">
+    <div class="copy-logos">
+        <p>
+            Super Mario The Movie 2023 ®
+        </p>
+        <img class="social-logos" src="assets/img/twitter.svg" alt="twitter">
+        <img class="social-logos" src="assets/img/instagram.svg" alt="instagram">
     </div>
 </footer>
 </html>
